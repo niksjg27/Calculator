@@ -117,6 +117,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+//Addition
         plus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -135,6 +136,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+//Subtraction
         minus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -153,6 +155,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+//Multiplication
         mul.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -171,6 +174,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+//Division
         div.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
