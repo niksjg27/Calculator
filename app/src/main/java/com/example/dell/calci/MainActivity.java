@@ -171,23 +171,23 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        div.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                num1 = parseFloat(tv.getText().toString());
-                tv.setText(tv.getText() + "/");
-
-                equal.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        String [] parts = tv.getText().toString().split("/");
-                        num2 = parseFloat(parts[1]);
-                        tv.setText(""+(num1/num2));
-
-                    }
-                });
-            }
-        });
+//        div.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                num1 = parseFloat(tv.getText().toString());
+//                tv.setText(tv.getText() + "/");
+//
+//                equal.setOnClickListener(new View.OnClickListener() {
+//                    @Override
+//                    public void onClick(View view) {
+//                        String [] parts = tv.getText().toString().split("/");
+//                        num2 = parseFloat(parts[1]);
+//                        tv.setText(""+(num1/num2));
+//
+//                    }
+//                });
+//            }
+//        });
 
 
 
